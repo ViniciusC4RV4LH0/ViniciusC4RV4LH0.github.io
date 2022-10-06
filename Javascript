@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Primeiro código</title>
+    <script>
+        window.onload = roda;
+
+        function roda() {
+            var seg = document.getElementById("Segundo")
+            seg.innerHTML = "Javascript rodando!";
+        }
+    </script>
+</head>
+<body>
+    <h1 id="Primeiro">Olá</h1>
+    <h1 id="Segundo">Página com JS</h1>
+</body>
+</html>
